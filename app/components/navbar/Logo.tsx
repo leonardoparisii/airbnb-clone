@@ -6,14 +6,25 @@ const Logo = () => {
     const router = useRouter();
 
   return (
-    <Image
-        alt="Logo"
-        className="hidden md:block cursor-pointer"
-        width={100}
-        height={100} 
-        src='/images/logo.png'   
-    />
-  )
+    <>
+      <Image
+          onClick={() => router.push('/')}
+          alt="Logo"
+          className="hidden logo-bp:block cursor-pointer"
+          width={100}
+          height={100} 
+          src='/images/logo.png'   
+      />
+      <Image
+          onClick={() => router.push('/')}
+          alt="Logo"
+          className="logo-bp:hidden block cursor-pointer"
+          width={30}
+          height={32} 
+          src='/images/Logo-2.svg'   
+      />
+    </>
+    )
 }
 
 export default Logo
