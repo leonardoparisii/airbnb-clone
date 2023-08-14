@@ -16,7 +16,7 @@ module.exports = {
       'md': '768px',
       'lg': '1024',
       'logo-bp': '1120px',
-      'xl': '1315px'
+      'xl': '1400px'
     }
   },
   plugins: [],

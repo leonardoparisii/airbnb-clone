@@ -20,7 +20,6 @@ import { IoDiamond } from "react-icons/io5";
 import CarouselArrow from "../CarouselArrow";
 import { useEffect, useRef, useState } from "react";
 import styles from './page.module.css'
-import Image from "next/image";
 
 export const categories = [
   {
@@ -129,7 +128,7 @@ const Categories = () => {
 
   return (
     <Container>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-center">
         {carouselWidth == 'right' ? (
           <CarouselArrow dir='left' onClick={() => handleArrowClick('left')}/>
         ) : null}
