@@ -25,77 +25,77 @@ export const categories = [
   {
     label: "Beach",
     icon: TbBeach,
-    desc: "This property is close to the beach!",
+    description: "This property is close to the beach!",
   },
   {
     label: "Windmills",
     icon: GiWindmill,
-    desc: "This property has windmills!",
+    description: "This property has windmills!",
   },
   {
     label: "Modern",
     icon: MdOutlineVilla,
-    desc: "This property is modern!",
+    description: "This property is modern!",
   },
   {
     label: "Countryside",
     icon: TbMountain,
-    desc: "This property is in the countryside!",
+    description: "This property is in the countryside!",
   },
   {
     label: "Pools",
     icon: TbPool,
-    desc: "This property has a pool!",
+    description: "This property has a pool!",
   },
   {
     label: "Islands",
     icon: GiIsland,
-    desc: "This property is on a island!",
+    description: "This property is on a island!",
   },
   {
     label: "Lake",
     icon: GiBoatFishing,
-    desc: "This property is close to a lake!",
+    description: "This property is close to a lake!",
   },
   {
     label: "Skiing",
     icon: FaSkiing,
-    desc: "This property has skiing activities!",
+    description: "This property has skiing activities!",
   },
   {
     label: "Castles",
     icon: GiCastle,
-    desc: "This property is in a castle!",
+    description: "This property is in a castle!",
   },
   {
     label: "Camping",
     icon: GiForestCamp,
-    desc: "This property has camping activities!",
+    description: "This property has camping activities!",
   },
   {
     label: "Arctic",
     icon: BsSnow,
-    desc: "This property is in the arctic!",
+    description: "This property is in the arctic!",
   },
   {
     label: "Cave",
     icon: GiCaveEntrance,
-    desc: "This property is in a cave!",
+    description: "This property is in a cave!",
   },
   {
     label: "Desert",
     icon: GiCactus,
-    desc: "This property is in the desert!",
+    description: "This property is in the desert!",
   },
   {
     label: "Barns",
     icon: GiBarn,
-    desc: "This property is in the barn!",
+    description: "This property is in the barn!",
   },
   {
     label: "Lux",
     icon: IoDiamond,
-    desc: "This property is luxurious!",
+    description: "This property is luxurious!",
   },
 ];
 
