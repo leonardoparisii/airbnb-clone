@@ -2,17 +2,13 @@
 import L from 'leaflet'
 import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 import "leaflet/dist/leaflet.css"
+import MarkerIcon from 'leaflet/dist/images/marker-icon.png'
 
 // @ts-ignore
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
-    iconUrl: require('../../public/images/MapPin.svg'),
-    iconRetinaUrl: require('../../public/images/MapPin.svg'),
-    iconAnchor: null,
-    popupAnchor: null,
-    shadowUrl: null,
-    shadowSize: null,
-    shadowAnchor: null,
+    iconUrl: MarkerIcon.src,
+    iconRetinaUrl: MarkerIcon.src,
 });
 
 interface MapProps {
