@@ -38,6 +38,7 @@ export default async function getListings(
 
     if (roomCount) {
       query.roomCount = {
+        //greater than or equal
         gte: +roomCount
       }
     }
