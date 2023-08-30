@@ -143,7 +143,7 @@ const Categories = () => {
               md:overflow-x-hidden
               md:overflow-y-hidden
               transition-all
-              overflow-x
+              overflow-x-auto
               ${styles.container}
               ${carouselWidth == 'left' ? 'pl-4' : 'pr-4'}
             `}
